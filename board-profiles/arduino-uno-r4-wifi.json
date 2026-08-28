@@ -1,0 +1,51 @@
+{
+  "$schema": "../docs/board-profile.schema.json",
+  "schemaVersion": 1,
+  "id": "arduino-uno-r4-wifi",
+  "manufacturer": "Arduino",
+  "name": "Arduino UNO R4 WiFi",
+  "status": "hardware-validation",
+  "agentCompatibility": "0.8.0-device-workbench-candidate",
+  "protocolVersion": 1,
+  "primaryMcu": "Renesas RA4M1",
+  "connectivityMcu": "ESP32-S3",
+  "architecture": "renesas_uno:unor4",
+  "fullyQualifiedBoardName": "arduino:renesas_uno:unor4wifi",
+  "flasher": { "strategy": "arduino-uno-r4-webserial", "verified": false },
+  "electrical": {
+    "logicVoltageVolts": 5,
+    "gpioOperatingVoltageVolts": 5,
+    "adcMaximumResolutionBits": 14,
+    "dacResolutionBits": 12,
+    "notes": [
+      "Use the board's official documentation for absolute maximum ratings.",
+      "Do not connect another driven signal while a pin is configured as an output."
+    ]
+  },
+  "pins": [
+    { "id": "D0", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "uart-rx"], "warnings": ["Used by the primary serial interface."] },
+    { "id": "D1", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "uart-tx"], "warnings": ["Used by the primary serial interface."] },
+    { "id": "D2", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output"] },
+    { "id": "D3", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "pwm"] },
+    { "id": "D4", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output"] },
+    { "id": "D5", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "pwm"] },
+    { "id": "D6", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "pwm"] },
+    { "id": "D7", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output"] },
+    { "id": "D8", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output"] },
+    { "id": "D9", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "pwm"] },
+    { "id": "D10", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "pwm", "spi-ss"] },
+    { "id": "D11", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "pwm", "spi-mosi"] },
+    { "id": "D12", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "spi-miso"] },
+    { "id": "D13", "header": "DIGITAL", "capabilities": ["digital-input", "digital-output", "spi-sck", "onboard-led"], "warnings": ["Connected to the board's built-in LED circuit."] },
+    { "id": "A0", "header": "ANALOG", "capabilities": ["digital-input", "digital-output", "analog-input", "dac-output"] },
+    { "id": "A1", "header": "ANALOG", "capabilities": ["digital-input", "digital-output", "analog-input"] },
+    { "id": "A2", "header": "ANALOG", "capabilities": ["digital-input", "digital-output", "analog-input"] },
+    { "id": "A3", "header": "ANALOG", "capabilities": ["digital-input", "digital-output", "analog-input"] },
+    { "id": "A4", "header": "ANALOG", "capabilities": ["digital-input", "digital-output", "analog-input", "i2c-sda"] },
+    { "id": "A5", "header": "ANALOG", "capabilities": ["digital-input", "digital-output", "analog-input", "i2c-scl"] }
+  ],
+  "sources": [
+    "https://docs.arduino.cc/hardware/uno-r4-wifi",
+    "https://docs.arduino.cc/tutorials/uno-r4-wifi/cheat-sheet"
+  ]
+}

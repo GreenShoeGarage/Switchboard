@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://switchboard.local/schemas/board-profile-v1.json",
+  "title": "SWITCHBOARD Board Profile",
+  "type": "object",
+  "required": ["schemaVersion", "id", "name", "protocolVersion", "pins"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string", "minLength": 1 },
+    "protocolVersion": { "type": "integer", "minimum": 1 },
+    "pins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "capabilities"],
+        "properties": {
+          "id": { "type": "string" },
+          "capabilities": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        }
+      }
+    }
+  }
+}

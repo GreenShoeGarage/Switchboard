@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787871308816,
+      "tag": "0000_curvy_maximus",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787873197559,
+      "tag": "0001_cool_captain_flint",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787875051801,
+      "tag": "0002_glamorous_oracle",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787876583906,
+      "tag": "0003_useful_vulture",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787880456529,
+      "tag": "0004_low_pandemic",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787883103006,
+      "tag": "0005_flawless_nick_fury",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787884561712,
+      "tag": "0006_dapper_darkstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787886775733,
+      "tag": "0007_classy_electro",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1787917060515,
+      "tag": "0008_device_gateway",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1787920496094,
+      "tag": "0009_community_runtime",
+      "breakpoints": true
+    }
+  ]
+}

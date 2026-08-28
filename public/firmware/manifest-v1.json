@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "release": "0.8.0-candidate",
+  "agentVersion": "0.8.0-device-workbench-candidate",
+  "protocolVersion": 1,
+  "board": {
+    "profileId": "arduino-uno-r4-wifi",
+    "fqbn": "arduino:renesas_uno:unor4wifi",
+    "coreVersion": "1.5.2",
+    "usbIds": [
+      { "vendorId": 9025, "productId": 4098, "mode": "runtime" },
+      { "vendorId": 9025, "productId": 109, "mode": "bootloader" }
+    ]
+  },
+  "upload": {
+    "strategy": "bossac-samba-extended",
+    "reset": "1200-bps-touch",
+    "bootloaderBaud": 921600,
+    "maximumBytes": 262144
+  },
+  "source": {
+    "url": "/firmware/SWITCHBOARD-Agent-v0.8.0.ino",
+    "sha256": "60242a7d1734ac0d323ec1fff666d836b7006cc55a3d465afd1dcc150f110a98",
+    "bytes": 25698
+  },
+  "binary": null,
+  "hardwareVerification": {
+    "passed": false,
+    "hilRunId": null,
+    "verifiedAt": null
+  }
+}
